@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dungeon Type Chill</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Cutive+Mono&display=swap">
+<style>
+  :root { --bg: #0e0e0e; --ink: #f2f2f2; --muted: #9a9a9a; --rule: #3a3a3a; --red: #c83b31; color-scheme: dark; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.6 'Cutive Mono', 'Courier New', monospace; padding: 32px max(16px, env(safe-area-inset-right, 0px)) 48px max(16px, env(safe-area-inset-left, 0px)); }
+  main { max-width: 640px; margin: 0 auto; display: grid; gap: 26px; }
+  h1 { font: 700 clamp(24px, 6vw, 36px)/1.15 'Silkscreen', monospace; margin: 4px 0 10px; }
+  h1 span { color: var(--red); }
+  h2 { font: 700 15px 'Silkscreen', monospace; margin: 0; }
+  p { margin: 0; }
+  .note { color: var(--muted); font-size: 13px; }
+  section { display: grid; gap: 14px; padding-top: 18px; border-top: 1px solid var(--rule); }
+  .track { display: grid; gap: 4px; }
+  .track h3 { font: 400 12px 'Silkscreen', monospace; margin: 0; }
+  .row { display: flex; gap: 10px; align-items: center; }
+  audio { flex: 1; min-width: 0; height: 40px; }
+  a { color: var(--ink); font-size: 12px; text-decoration-color: var(--red); white-space: nowrap; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="note">Dungeon Type, a tester</p>
+    <h1>Chill <span>/</span> 16-bit, slower and lower</h1>
+    <p>The same music at 90 BPM instead of 150, five semitones lower, with softer, darker instruments, slow strings, a laid-back kit, more echo and a slow tape wobble. Loops play three times so you can hear the join.</p>
+  </header>
+
+  <section>
+    <h2>Start here</h2>
+    <div class="track"><h3>Walkthrough: title, story, a fight, victory (2:19)</h3><div class="row"><audio controls preload="none" src="chill-walkthrough.mp3"></audio><a href="chill-walkthrough.mp3" download>save</a></div></div>
+    <div class="track"><h3>The title theme</h3><div class="row"><audio controls preload="none" src="chill-title-act1-x3.mp3"></audio><a href="chill-title-act1-x3.mp3" download>save</a></div></div>
+  </section>
+
+  <section>
+    <h2>Screens</h2>
+    <div class="track"><h3>Camp</h3><div class="row"><audio controls preload="none" src="chill-camp-act1-x3.mp3"></audio><a href="chill-camp-act1-x3.mp3" download>save</a></div></div>
+    <div class="track"><h3>Story, under the narrator</h3><div class="row"><audio controls preload="none" src="chill-story-act1-x3.mp3"></audio><a href="chill-story-act1-x3.mp3" download>save</a></div></div>
+    <div class="track"><h3>Briefing</h3><div class="row"><audio controls preload="none" src="chill-brief-act1-x3.mp3"></audio><a href="chill-brief-act1-x3.mp3" download>save</a></div></div>
+    <div class="track"><h3>Training</h3><div class="row"><audio controls preload="none" src="chill-training-x3.mp3"></audio><a href="chill-training-x3.mp3" download>save</a></div></div>
+  </section>
+
+  <section>
+    <h2>Fights and the dragon</h2>
+    <div class="track"><h3>A fight, combo 0</h3><div class="row"><audio controls preload="none" src="chill-fight-act1-combo0-x3.mp3"></audio><a href="chill-fight-act1-combo0-x3.mp3" download>save</a></div></div>
+    <div class="track"><h3>A fight, combo 16</h3><div class="row"><audio controls preload="none" src="chill-fight-act1-combo16-x3.mp3"></audio><a href="chill-fight-act1-combo16-x3.mp3" download>save</a></div></div>
+    <div class="track"><h3>The dragon, phase 1</h3><div class="row"><audio controls preload="none" src="chill-boss-act6-phase1-x3.mp3"></audio><a href="chill-boss-act6-phase1-x3.mp3" download>save</a></div></div>
+    <div class="track"><h3>The dragon, last phase</h3><div class="row"><audio controls preload="none" src="chill-boss-act6-phase3-x3.mp3"></audio><a href="chill-boss-act6-phase3-x3.mp3" download>save</a></div></div>
+  </section>
+
+  <section>
+    <h2>Other acts, fate and the endings</h2>
+    <div class="track"><h3>The title in act III</h3><div class="row"><audio controls preload="none" src="chill-title-act3-x3.mp3"></audio><a href="chill-title-act3-x3.mp3" download>save</a></div></div>
+    <div class="track"><h3>The title in act VI</h3><div class="row"><audio controls preload="none" src="chill-title-act6-x3.mp3"></audio><a href="chill-title-act6-x3.mp3" download>save</a></div></div>
+    <div class="track"><h3>The die of fate</h3><div class="row"><audio controls preload="none" src="chill-fate-x3.mp3"></audio><a href="chill-fate-x3.mp3" download>save</a></div></div>
+    <div class="track"><h3>Victory</h3><div class="row"><audio controls preload="none" src="chill-victory.mp3"></audio><a href="chill-victory.mp3" download>save</a></div></div>
+    <div class="track"><h3>Defeat</h3><div class="row"><audio controls preload="none" src="chill-defeat.mp3"></audio><a href="chill-defeat.mp3" download>save</a></div></div>
+  </section>
+</main>
+</body>
+</html>
